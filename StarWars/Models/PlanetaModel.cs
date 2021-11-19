@@ -16,6 +16,7 @@ namespace StarWars.Models
         public double Diametro { get; set; }
         public string Clima { get; set; }
         public long Populacao { get; set; }
+        public string Url { get; set; }
         [JsonIgnore]
         public virtual PilotoModel Piloto { get; set; }
         [JsonIgnore]

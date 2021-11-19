@@ -15,6 +15,7 @@ namespace StarWars.Models
         public int Passageiro { get; set; }
         public double Carga { get; set; }
         public string Classe { get; set; }
+        public string Url { get; set; }
         [JsonIgnore]
         public virtual PilotoModel Piloto { get; set; }
 

@@ -14,6 +14,7 @@ namespace StarWars.Models
         public string Nome { get; set; }
         [Required]
         public DateTime AnoNascimento { get; set; }
+        public string  Url { get; set; }
         [JsonIgnore]
         public virtual List<NaveModel> Naves {get; set;}
         [JsonIgnore]
